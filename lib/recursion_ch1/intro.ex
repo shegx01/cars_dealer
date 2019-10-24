@@ -41,4 +41,10 @@ defmodule RecursiveProgramming.RecursionCh1 do
   def sum(_), do: nil
   defp do_sum(1, acc), do: acc
   defp do_sum(n, acc), do: do_sum(n - 1, n + acc)
+
+
+  # computing predecessor
+  # predecessor n = 0 if n = 0
+  #             (n) + 1 if n > 0
+
 end
